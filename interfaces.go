@@ -9,6 +9,7 @@ import (
 	1. Use many smaller rather than fewer larger interfaces
 	2. Don't export interfaces for types that will be consumed (unless you want to, use concrete type)
 	3. Export interfaces for types that will be used by a package
+	2/3. Essentially, take in INTERFACE, output CONCRETE
 	4. Design functions and methods to receive interfaces whenever possible (SRP)
 */
 
